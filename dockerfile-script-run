@@ -1,0 +1,2 @@
+FROM us.gcr.io/pbm-mac-lp-prod-ai/pbm_base:LP_Model_Improvements_GCP-9bc4aa3-WIP-0
+RUN ["pip", "install", "--upgrade", "scikit-learn==0.23.2", "statsmodels==0.12.1", "--index-url", "https://nexus-ha.cvshealth.com:9443/repository/pypi-proxy/simple"]

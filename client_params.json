@@ -1,0 +1,18 @@
+[
+    {
+        "DATA_ID": "'13c0401_pro_4454_20210312'",
+        "PROGRAM_INPUT_PATH": "gs://pbm-mac-lp-prod-ai-bucket/LP_MI/validation/PRO",
+        "PROGRAM_OUTPUT_PATH": "gs://pbm-mac-lp-prod-ai-bucket/maven-test/MI_LP_Output_PRO",
+        "WRITE_TO_BQ": false,
+        "READ_FROM_BQ": false,
+        "UNC_OPT": false
+    },
+    {
+        "DATA_ID": "'13c0401_unc_4454_20210312'",
+        "PROGRAM_INPUT_PATH": "gs://pbm-mac-lp-prod-ai-bucket/LP_MI/validation/UNC",
+        "PROGRAM_OUTPUT_PATH": "gs://pbm-mac-lp-prod-ai-bucket/maven-test/MI_LP_Output_UNC",
+        "WRITE_TO_BQ": false,
+        "READ_FROM_BQ": false,
+        "UNC_OPT": true
+    }
+]

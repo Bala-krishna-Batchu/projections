@@ -1,0 +1,3 @@
+pytest
+pickle5==0.0.12
+
